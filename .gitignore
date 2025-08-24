@@ -1,0 +1,27 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependências de pacotes (se usar Node ou similar)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build de ferramentas (caso use geradores de site, ex: Jekyll, Hugo, etc.)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.cache/
+dist/
+build/
+
+# Editor configs
+*.swp
+*.swo
+.idea/
+.vscode/
