@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad – Otto</title>
+  <meta name="description" content="Política de Privacidad de la aplicación Otto. Datos recopilados, finalidad, almacenamiento, seguridad y derechos del usuario (LGPD)." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Política de Privacidad – Otto" />
+  <meta property="og:description" content="Conoce cómo Otto maneja tus datos: recopilación, uso, seguridad, compartición y derechos (LGPD)." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #12141a;
+      --text: #e6e6e6;
+      --muted: #b9bec7;
+      --accent: #6ea8fe;
+      --border: #1f2530;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background: radial-gradient(1200px 800px at 20% 0%, #121621 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 48px 20px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+      letter-spacing: 0.2px;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    main {
+      max-width: 880px;
+      margin: 24px auto 64px;
+      padding: 0 20px;
+    }
+    article {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(4px);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      border-left: 3px solid var(--accent);
+      padding-left: 10px;
+    }
+    p { margin: 10px 0 0; }
+    ul { margin: 8px 0 0 1.2rem; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 28px 20px 56px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media print {
+      body { background: #fff; color: #000; }
+      article { border: none; background: #fff; padding: 0; }
+      header, footer { color: #000; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Política de Privacidad</h1>
+    <p class="muted">Aplicación Otto (iOS y Android)</p>
+  </header>
+
+  <main>
+    <article>
+      <section id="datos-recogidos">
+        <h2>1. Datos Recogidos</h2>
+        <p>Otto solo recopila la siguiente información proporcionada por el usuario al registrarse:</p>
+        <ul>
+          <li>Nombre</li>
+          <li>Correo electrónico</li>
+          <li>Contraseña</li>
+        </ul>
+        <p><em>* Otto no recopila ubicación, imágenes, audio, información del dispositivo, ni realiza seguimiento de navegación.</em></p>
+      </section>
+
+      <section id="finalidad">
+        <h2>2. Finalidad del Uso de los Datos</h2>
+        <p>Los datos recopilados se utilizan exclusivamente para:</p>
+        <ul>
+          <li>Crear y administrar la cuenta del usuario;</li>
+          <li>Permitir el inicio de sesión y la autenticación en la aplicación;</li>
+          <li>Enviar comunicaciones relacionadas con el funcionamiento de la app (por ejemplo, notificaciones de cuenta o suscripción).</li>
+        </ul>
+      </section>
+
+      <section id="almacenamiento-y-seguridad">
+        <h2>3. Almacenamiento y Seguridad</h2>
+        <ul>
+          <li>Los datos se almacenan en un entorno seguro con medidas razonables para prevenir accesos no autorizados.</li>
+          <li>El usuario es responsable de mantener la confidencialidad de su contraseña.</li>
+        </ul>
+      </section>
+
+      <section id="comparticion">
+        <h2>4. Compartición de Datos</h2>
+        <ul>
+          <li>Otto no comparte, vende ni alquila datos personales a terceros.</li>
+          <li>La información de pago no es accesible ni almacenada por Otto, ya que las suscripciones son procesadas directamente por Apple App Store y Google Play Store.</li>
+        </ul>
+      </section>
+
+      <section id="suscripciones-y-prueba-gratis">
+        <h2>5. Suscripciones y Período de Prueba</h2>
+        <ul>
+          <li>El usuario tiene derecho a un período de prueba gratuito de 2 meses tras el registro.</li>
+          <li>Después de este período, para continuar usando la aplicación, se requiere contratar una suscripción in-app.</li>
+          <li>La gestión de pagos y cancelaciones se realiza a través de las tiendas de Apple y Google.</li>
+        </ul>
+      </section>
+
+      <section id="derechos-del-usuario">
+        <h2>6. Derechos del Usuario</h2>
+        <p>Según la legislación aplicable (incluyendo la Ley General de Protección de Datos – LGPD en Brasil), el usuario tiene derecho a:</p>
+        <ul>
+          <li>Acceder a los datos que proporcionó;</li>
+          <li>Corregir datos incompletos o desactualizados;</li>
+          <li>Solicitar la eliminación de su cuenta y datos asociados.</li>
+        </ul>
+        <p>Para ejercer estos derechos, contacta a través del correo: <a href="mailto:otto.fliper.studios@gmail.com">otto.fliper.studios@gmail.com</a>.</p>
+      </section>
+
+      <section id="cambios">
+        <h2>7. Cambios en esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad periódicamente. En caso de cambios relevantes, se notificará a los usuarios mediante la aplicación o el correo registrado.</p>
+      </section>
+
+      <section id="legislacion-aplicable">
+        <h2>8. Legislación Aplicable</h2>
+        <p>Esta Política se rige exclusivamente por la legislación de la República Federativa de Brasil.</p>
+      </section>
+
+      <section id="responsable-y-contacto">
+        <h2>9. Responsable y Contacto</h2>
+        <p>Otto está a cargo de una persona física.<br/>
+        Para dudas o solicitudes sobre esta Política, contacta a:<br/>
+        <a href="mailto:otto.fliper.studios@gmail.com">otto.fliper.studios@gmail.com</a></p>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 20px 0;" />
+
+      <p class="muted">Última actualización: 24 de agosto de 2025</p>
+    </article>
+  </main>
+
+  <footer>
+    © Otto — Política de Privacidad
+  </footer>
+</body>
+</html>

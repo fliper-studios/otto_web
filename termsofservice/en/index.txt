@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Términos de Servicio – Otto</title>
+  <meta name="description" content="Términos de Servicio de la aplicación Otto (iOS y Android). Suscripciones, periodo de prueba, privacidad y responsabilidades." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Términos de Servicio – Otto" />
+  <meta property="og:description" content="Términos de Servicio de la aplicación Otto (iOS y Android)." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #12141a;
+      --text: #e6e6e6;
+      --muted: #b9bec7;
+      --accent: #6ea8fe;
+      --border: #1f2530;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background: radial-gradient(1200px 800px at 20% 0%, #121621 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 48px 20px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+      letter-spacing: 0.2px;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    main {
+      max-width: 880px;
+      margin: 24px auto 64px;
+      padding: 0 20px;
+    }
+    article {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(4px);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      border-left: 3px solid var(--accent);
+      padding-left: 10px;
+    }
+    p { margin: 10px 0 0; }
+    ul { margin: 8px 0 0 1.2rem; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 28px 20px 56px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media print {
+      body { background: #fff; color: #000; }
+      article { border: none; background: #fff; padding: 0; }
+      header, footer { color: #000; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Términos de Servicio</h1>
+    <p class="muted">Aplicación Otto (iOS y Android)</p>
+  </header>
+
+  <main>
+    <article>
+      <section id="sobre-la-app">
+        <h2>1. Sobre la aplicación</h2>
+        <p>Otto es una aplicación disponible para dispositivos iOS y Android, con funcionalidades accesibles mediante registro y, en algunos casos, suscripción de pago.</p>
+      </section>
+
+      <section id="registro-y-cuenta">
+        <h2>2. Registro y Cuenta de Usuario</h2>
+        <p>Para usar Otto, el usuario debe crear una cuenta proporcionando nombre, correo electrónico y contraseña.</p>
+        <ul>
+          <li>El usuario es responsable de mantener la confidencialidad de sus credenciales.</li>
+          <li>Está prohibido compartir la cuenta con terceros.</li>
+          <li>El usuario debe proporcionar información verdadera y actualizada.</li>
+        </ul>
+      </section>
+
+      <section id="suscripciones-y-pagos">
+        <h2>3. Suscripciones, Periodo de Prueba y Pagos</h2>
+        <ul>
+          <li>Otto ofrece funcionalidades mediante suscripción in-app.</li>
+          <li>El usuario tiene derecho a un periodo de prueba de 2 (dos) meses desde la fecha de registro, tras el cual será necesaria la suscripción.</li>
+          <li>Las suscripciones son procesadas y gestionadas directamente por Apple App Store (iOS) y Google Play Store (Android).</li>
+          <li>La renovación de la suscripción es automática, salvo que el usuario la cancele a través de Apple o Google antes de la próxima facturación.</li>
+          <li>Otto no realiza cobros directos y no tiene acceso a la información de pago del usuario.</li>
+        </ul>
+      </section>
+
+      <section id="cancelacion">
+        <h2>4. Política de Cancelación</h2>
+        <p>El usuario puede cancelar su suscripción en cualquier momento desde la configuración de App Store o Google Play. La cancelación no implica reembolso de pagos ya realizados, salvo disposición contraria de las tiendas.</p>
+      </section>
+
+      <section id="privacidad">
+        <h2>5. Privacidad y Datos Personales</h2>
+        <ul>
+          <li>Otto solo recopila nombre, correo electrónico y contraseña para crear y gestionar la cuenta del usuario.</li>
+          <li>La aplicación no realiza seguimiento, ni accede a la cámara o ubicación del dispositivo.</li>
+          <li>Los datos se tratan conforme a nuestra Política de Privacidad.</li>
+        </ul>
+      </section>
+
+      <section id="derechos-y-responsabilidades">
+        <h2>6. Derechos y Responsabilidades</h2>
+        <ul>
+          <li>El usuario se compromete a usar Otto de manera legal y conforme a estos Términos.</li>
+          <li>Está prohibido usar la aplicación para actividades ilegales, abusivas o que puedan comprometer el funcionamiento del servicio.</li>
+          <li>Otto se reserva el derecho de suspender o cerrar cuentas que violen estos Términos.</li>
+        </ul>
+      </section>
+
+      <section id="limitacion-de-responsabilidad">
+        <h2>7. Limitación de Responsabilidad</h2>
+        <p>Otto se proporciona “tal como está”. No garantizamos funcionamiento ininterrumpido ni libre de errores. En la máxima medida permitida por la ley, no nos hacemos responsables por daños derivados del uso o imposibilidad de uso de la aplicación.</p>
+      </section>
+
+      <section id="cambios">
+        <h2>8. Cambios en los Términos</h2>
+        <p>Podemos actualizar estos Términos de Servicio periódicamente. En caso de cambios relevantes, notificaremos a los usuarios mediante la aplicación o el correo electrónico registrado.</p>
+      </section>
+
+      <section id="legislacion-aplicable">
+        <h2>9. Legislación Aplicable</h2>
+        <p>Estos Términos se rigen exclusivamente por la legislación de la República Federativa del Brasil.</p>
+      </section>
+
+      <section id="contacto">
+        <h2>10. Responsable y Contacto</h2>
+        <p>Otto es responsabilidad de una persona física.<br/>
+        Para dudas o solicitudes relacionadas con estos Términos, contacte a: <a href="mailto:otto.fliper.studios@gmail.com">otto.fliper.studios@gmail.com</a></p>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 20px 0;" />
+
+      <p class="muted">Última actualización: 24 de agosto de 2025</p>
+    </article>
+  </main>
+
+  <footer>
+    © Otto — Términos de Servicio
+  </footer>
+</body>
+</html>
