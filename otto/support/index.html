@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support – Otto</title>
+  <meta name="description" content="Support page for the Otto app. Contact us for help, questions, or issues." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Support – Otto" />
+  <meta property="og:description" content="Get help with the Otto app. Contact our support team for assistance." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #12141a;
+      --text: #e6e6e6;
+      --muted: #b9bec7;
+      --accent: #6ea8fe;
+      --border: #1f2530;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background: radial-gradient(1200px 800px at 20% 0%, #121621 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 48px 20px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+      letter-spacing: 0.2px;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    main {
+      max-width: 880px;
+      margin: 24px auto 64px;
+      padding: 0 20px;
+    }
+    article {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(4px);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      border-left: 3px solid var(--accent);
+      padding-left: 10px;
+    }
+    p { margin: 10px 0 0; }
+    ul { margin: 8px 0 0 1.2rem; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 28px 20px 56px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* FAQ Toggle */
+    .faq-item { margin: 12px 0; cursor: pointer; }
+    .faq-item h3 {
+      margin: 0;
+      font-size: 1rem;
+      color: var(--accent);
+    }
+    .faq-item p {
+      display: none;
+      margin: 6px 0 0;
+      color: var(--text);
+    }
+    .faq-item.active p { display: block; }
+
+    @media print {
+      body { background: #fff; color: #000; }
+      article { border: none; background: #fff; padding: 0; }
+      header, footer { color: #000; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Support</h1>
+    <p class="muted">Otto Application</p>
+  </header>
+
+  <main>
+    <article>
+      <section id="contact">
+        <h2>Contact Support</h2>
+        <p>If you have any questions or issues with the Otto app, please contact us at:</p>
+        <p><a href="mailto:otto.fliper.studios@gmail.com">otto.fliper.studios@gmail.com</a></p>
+      </section>
+
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <h3>How do I add an expense?</h3>
+          <p>Simply tap the “+” button on the main screen to add a new expense. <span class="symbol">➕</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I remove an expense?</h3>
+          <p>Swipe left on the expense card. Two buttons will appear—tap the button with the trash icon to delete the expense. <span class="symbol">🗑️</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I edit an expense?</h3>
+          <p>Swipe left on the expense card. Two buttons will appear—tap the button with the pencil/edit icon to edit the expense. <span class="symbol">✏️</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I cancel my subscription?</h3>
+          <p>Subscriptions are managed by the user via the device’s App Store (iOS) or Google Play Store (Android) settings.</p>
+        </div>
+
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    © Lucas Siqueira — Support
+  </footer>
+
+  <script>
+    // Toggle FAQ answers
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
