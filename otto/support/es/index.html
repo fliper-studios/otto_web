@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soporte – Otto</title>
+  <meta name="description" content="Página de soporte de la app Otto. Contáctanos para ayuda, dudas o problemas." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Soporte – Otto" />
+  <meta property="og:description" content="Obtén ayuda con la app Otto. Contacta a nuestro equipo de soporte." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #12141a;
+      --text: #e6e6e6;
+      --muted: #b9bec7;
+      --accent: #6ea8fe;
+      --border: #1f2530;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background: radial-gradient(1200px 800px at 20% 0%, #121621 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header { padding: 48px 20px 16px; text-align: center; }
+    header h1 { margin: 0 0 8px; font-size: clamp(1.8rem, 2.8vw, 2.4rem); letter-spacing: 0.2px; }
+    header p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+    main { max-width: 880px; margin: 24px auto 64px; padding: 0 20px; }
+    article {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      backdrop-filter: blur(4px);
+    }
+    h2 { margin-top: 28px; font-size: 1.25rem; border-left: 3px solid var(--accent); padding-left: 10px; }
+    p { margin: 10px 0 0; }
+    ul { margin: 8px 0 0 1.2rem; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    footer { text-align: center; color: var(--muted); font-size: 0.9rem; padding: 28px 20px 56px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .faq-item { margin: 12px 0; cursor: pointer; }
+    .faq-item h3 { margin: 0; font-size: 1rem; color: var(--accent); }
+    .faq-item p { display: none; margin: 6px 0 0; color: var(--text); }
+    .faq-item.active p { display: block; }
+    @media print {
+      body { background: #fff; color: #000; }
+      article { border: none; background: #fff; padding: 0; }
+      header, footer { color: #000; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soporte</h1>
+    <p class="muted">Aplicación Otto</p>
+  </header>
+
+  <main>
+    <article>
+      <section id="contact">
+        <h2>Contacto de Soporte</h2>
+        <p>Si tienes alguna duda o problema con la app Otto, contáctanos en:</p>
+        <p><a href="mailto:otto.fliper.studios@gmail.com">otto.fliper.studios@gmail.com</a></p>
+      </section>
+
+      <section id="faq">
+        <h2>Preguntas Frecuentes</h2>
+
+        <div class="faq-item">
+          <h3>¿Cómo agregar un gasto?</h3>
+          <p>Simplemente toca el botón “+” en la pantalla principal para agregar un nuevo gasto. <span class="symbol">➕</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Cómo eliminar un gasto?</h3>
+          <p>Desliza a la izquierda en la tarjeta del gasto. Aparecerán dos botones — toca el botón con el ícono de basura para eliminar el gasto. <span class="symbol">🗑️</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Cómo editar un gasto?</h3>
+          <p>Desliza a la izquierda en la tarjeta del gasto. Aparecerán dos botones — toca el botón con el ícono de lápiz para editar el gasto. <span class="symbol">✏️</span></p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Cómo cancelar mi suscripción?</h3>
+          <p>Las suscripciones son gestionadas por el usuario a través de la App Store (iOS) o Google Play Store (Android).</p>
+        </div>
+
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    © Lucas Siqueira — Soporte
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.addEventListener('click', () => { item.classList.toggle('active'); });
+    });
+  </script>
+</body>
+</html>
