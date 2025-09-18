@@ -9,16 +9,15 @@
       var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
       // Links das lojas - substitua pelos do seu app
-      var androidLink = "https://play.google.com/store/apps/details?id=com.fs.otto_app";
       var iosLink = "https://apps.apple.com/app/id6749043439";
+      var androidLink = "https://play.google.com/store/apps/details?id=com.fs.otto_app";
 
-      if (/android/i.test(userAgent)) {
-        window.location.replace(androidLink);
-      } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      if (/iPad|iPhone|iPod|Macintosh/.test(userAgent) && !window.MSStream) {
+        // iPhone, iPad, iPod e Mac → App Store
         window.location.replace(iosLink);
       } else {
-        // fallback: redireciona para um site genérico ou para a versão web do app
-        window.location.replace("https://seudominio.com");
+        // Todos os outros (inclui Android, Windows, Linux etc.) → Google Play
+        window.location.replace(androidLink);
       }
     };
   </script>
